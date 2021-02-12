@@ -69,9 +69,6 @@ function ReadySearchBox({ onSelectAddress, defaultValue }: ISearchBoxProps) {
         } catch (error) {
             console.error("Error:", error)
         }
-
-        console.log(address);
-
     };
 
     return (
